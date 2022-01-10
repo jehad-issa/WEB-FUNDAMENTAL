@@ -1,0 +1,53 @@
+.container{
+    width: 800px;
+    height: 800px;
+    background-color:lightgray;
+    margin: 0 auto;
+}
+
+
+img.pic{
+    height: 200px;
+}
+h1{
+    text-align: center;
+}
+
+.raw1{
+    display: flex;
+    justify-content:space-evenly;
+    width: 750px;
+    background-color: rgb(128, 190, 240);
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.raw2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 750px;
+    background-color: pink;
+    margin-left: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+
+}
+
+
+.raw3{
+     display: flex;
+     justify-content: space-evenly;
+     width: 750px;
+     background-color: white;
+     margin-left: 10px;
+     padding: 15px;
+     margin-bottom: 10px;
+}
+
+p{
+    text-align: center;
+    margin-top: 5px;
+}
