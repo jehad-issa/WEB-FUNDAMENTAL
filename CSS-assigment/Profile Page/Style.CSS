@@ -1,0 +1,279 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-bar{
+    background-color: black;
+    height: 50px;
+
+
+}
+
+
+
+.navbar{
+    background-color:black;
+    color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 800px;
+margin: 0 auto;
+
+
+
+
+}
+.nave title{
+    height: 30px;
+position: absolute;
+left: 20px;
+
+}
+
+
+.nav-link{
+    width: 400px;
+    color: white;
+    justify-content:space-around;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.contaner1{
+    margin: 0 auto;
+width: 370px;
+height: 300px;
+background-color: white;
+padding-top: 20px;
+margin-top: 20px;
+position: relative;
+right: 180px;
+
+
+}
+.usercard{
+    margin: 0 auto;
+    width: 370px;
+    height: 270px;
+    background-color: white;
+    position: relative;
+    border: solid 5px grey;
+}
+.head{
+    background-color: lightseagreen;
+    width: 370px;
+    height: 50px;
+}
+
+.userpic{
+    height: 50px;
+    align-items: center;
+    position: relative;
+    left: 15px;
+    top: 20px;
+    
+    
+}
+.body{
+
+    position: relative;
+    top: 30px;
+    left: 10px;
+
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    justify-content: space-between;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    
+}
+.map-marker{
+    height: 20px;
+    
+}
+.paragragh{
+    position: relative;
+    top: 70px;
+    left: 10px;
+}
+.gear{
+    display: flex;
+    height: 20px;
+    width: 100px;
+    justify-content:space-between;
+    position: relative;
+    left: 10px;
+    top: 100px;
+}
+.contaner2{
+    margin: 0 auto;
+    width: 370px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    align-items: center;
+    border: gray solid 5px;
+}
+.Education{
+    width: 370px;
+    height: 40px;
+    background-color: grey;
+    color: white;
+    
+    
+}
+.title{
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+.info{
+    width: 370px;
+    height: 200px;
+    background-color: white;
+}
+.body2{
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.p1{
+    font-weight: bolder;
+    position: relative;
+    bottom: 5px;
+}
+.p2{
+    font-weight: lighter;
+  
+}
+.p3{
+    font-weight: normal;
+    position: relative;
+    top: 5px;
+}
+.contaner3{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    left: 510px;
+    bottom: 475px;
+    border: gray solid 5px;
+
+}
+.title2{
+    width: 257px;
+    height: 40px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 3px;
+    bottom: 2px;
+    align-items: center;
+}
+.num2{
+    height: 25px;
+    position: relative;
+    left: 10px;
+    position: relative;
+    bottom: 33px;
+}
+
+
+.request1{
+    position: relative;
+    left: 60px;
+    top: 25px;
+}
+
+.request2{
+    position: relative;
+    left: 60px;
+    top: 25px;
+
+}
+
+.img1{
+    height: 30px;
+    position: relative;
+    left: 15px;
+    border-radius: 50%;
+}
+.img2 , .img3{
+    height: 30px;
+    position: relative;
+    left: 120px;
+}
+.img4{
+    height: 30px;
+    position: relative;
+    left: 15px;
+bottom: 3px;
+border-radius: 50%;
+}
+.contaner4{
+    width: 250px;
+    height: 300px;
+    background-color:white;
+    margin-top: 60px;
+    border: gray solid 5px;
+    position: relative;
+    right: 5px;   
+}
+.title3{
+    display: flex;
+    width: 255px;
+    height: 40px;
+    background-color: grey;
+    color: white;
+    justify-content: center;
+    position: relative;
+    right: 5px;
+align-items: center;
+}
+ .logo{
+     height: 20px;
+     position: relative;
+     left: 10px;
+     bottom: 30px;
+     border-radius: 40%;
+     background-color: lightgray;
+ }
+
+
+
+.first, .second ,.therd, .fourth{
+    position: relative;
+    left: 60px;
+    top: 5px;
+}
+.Adrien, .Jane, .anne, .Arry{
+    height: 30px;
+    position: relative;
+    left: 15px;
+    bottom: 20px;
+    border-radius: 50%;
+    
+
+}
+.foter{
+
+    width: 250px;
+    height: 30px;
+    align-items: center;
+    position: relative;
+    left: 15px;
+
+}
