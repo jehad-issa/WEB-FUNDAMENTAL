@@ -1,0 +1,211 @@
+.contaner{
+    background-color: steelblue;
+    width: 1500px;
+    height: 1000px;
+}
+.python-logo{
+    height: 150px;
+}
+.head{
+    width: 1500px;
+    height: 170px;
+    display: flex;
+    background-color: steelblue;
+    color: white;
+}
+.large-link, .normal-link{
+    width: 60px;
+    position: relative;
+    top: 15px;
+    justify-content: space-around;
+}
+.text-size{
+    width: 80px;
+    position: relative;
+    left: 5px;
+}
+.text-size, .normal-link, .large-link{
+    
+   position: relative;
+   left: 750px;
+   justify-content: space-between;
+}
+.normal-link, .large-link{
+    color: goldenrod;
+    
+}
+.search{
+    width: 250px;
+    height: 60px;
+    background-color: grey;
+    position: relative;
+    top: 40px;
+    left: 500px;
+    border-radius: 10px;
+}
+.search-area{
+    width: 250px;
+    height: 60px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+nav{
+    width: 800px;
+    height: 60px;
+    background-color: CornflowerBlue ;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+    left: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;    
+    font-size: 25px;
+}
+.linka, .linkb, .linkc, .linkd, .linke, .linkf{
+    text-decoration: none;
+}
+
+h4{
+    color: white;
+    width: 600px;
+    height: 150px;
+    position: relative;
+    left: 550px;
+}
+.sid-bar{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    left: 320px;
+    bottom: 160px;
+}
+.doc, .Audio, .beginner, .developer, .pep , .python, .faq{
+    color: white;
+}
+.paragragh{
+    position: relative;
+    left: 650px;
+    bottom: 320px;
+    color: goldenrod;
+    font-style: italic;
+}
+.last-par{
+    position: relative;
+    left: 650px;
+    bottom: 320px;
+    color: white;
+}
+.paragragh2{
+    width: 1500px;
+    height: 280px;
+    background-color: white;
+    position: relative;
+    bottom: 300px;
+}
+.blueline{
+    width:400px;
+    height:8px;
+    background-color: steelblue ;
+    position:relative ;
+    top:15px;
+    left:350px;
+}
+.h3{
+    position:relative;
+    top:10px;
+    left:470px;
+}
+.paragragh-left{
+    position: relative;
+    top:5px;
+    left:400px;
+}
+.left-list{
+    color:blue;
+    position:relative;
+    top:5px;
+    left:400px;
+}
+.blueline2{
+    width:400px;
+    height:8px;
+    background-color: steelblue  ;
+    position:relative ;
+    left:900px;
+    bottom:230px;
+}
+
+.h3-right{
+    position:relative;
+    left:1050px;
+    bottom:235px; 
+}
+.blue-par{
+    color:blue;
+    position:relative;
+    left:960px;
+    bottom:275px
+}
+.the{
+    position:relative;
+    left:930px;
+    bottom:240px;
+}
+.hosts{
+    position:relative;
+    left:1152px;
+    bottom:310px;
+}
+.paragragh-right{
+    position:relative;
+    left:950px;
+    bottom:325px;
+}
+.right-list{
+    color:blue;
+    position:relative;
+    left:950px;
+    bottom:340px
+}
+.foter{
+    background-color:red;
+    color:white
+    width:1500px;
+    height:110px;
+position:relative;
+bottom:335px;
+background-color:steelblue;
+}
+.link1, .link2, .link3{
+    width:1500px;
+    color:white;
+    position:relative;
+    left:550px;
+    top:20px;
+    font-size:20px;
+    justify-content:space-between;
+    text-decoration: none;
+}
+.link1{
+    position:relative;
+    left:500px;
+}
+
+.link3{
+    position:relative;
+    left:600px;
+}
+.last{
+    position:relative;
+    left:750px;
+    top:40px;
+    color:white;
+    font-size:10px;
+}
+
