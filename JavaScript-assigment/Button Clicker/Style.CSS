@@ -1,0 +1,103 @@
+main{
+    background-color:white
+        width: 1500px;
+    height: 700px;
+}
+nav{
+    background-color: lightgray;
+    height: 100px;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    
+}
+.login-btn{
+    background-color: blue;
+    color: white;
+    box-shadow: 4px 5px black;
+    position: relative;
+    right: 10px;
+    font-size: 20px;
+}
+.search{
+    width: 300px;
+    font-size: 20px;
+}
+.top-box{
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    left: 360px;
+    top: 15px;
+ display: flex;
+ border: 3px solid black;
+}
+.top-boxright{
+    display: flex;
+align-items: center;
+position: relative;
+left: 60px;
+font-size: 20px;
+}
+.top-boxleft{
+    position: relative;
+    left: 15px;
+}
+.likes13, .likes37{
+    background-color: khaki;
+    box-shadow: 4px 5px black;
+}
+.buttom-box{
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    left: 360px;
+    top: 30px;
+    display: flex;
+    border: 3px solid black;
+}
+.buttom-boxleft{
+    position: relative;
+    left: 15px;
+}
+.buttom-boxright{
+    display: flex;
+align-items: center;
+position: relative;
+left: 60px;
+font-size: 20px;
+}
+.right-box{
+    width: 250px;
+    height: 160px;
+    background-color: white;
+    position: relative;
+    left: 905px;
+    bottom: 395px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    border: 3px solid black;
+}
+.Add-Definition{
+    position: relative;
+    top: 40px;
+    right: 60px;
+    font-size: 15px;
+    background-color: mediumseagreen;
+    box-shadow: 3px 5px black;
+}
+.paragragh-right{
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+    font-size: 17px;
+}
+.noun1, .noun2{
+    font-style: italic;
+}
