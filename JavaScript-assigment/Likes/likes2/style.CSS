@@ -1,0 +1,129 @@
+nav{
+    width: 700px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+   
+}
+h1{
+    position:relative;
+    left: 15px;
+    font-size: 25px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.lefttbox{
+    width: 160px;
+    height: 230px;
+    background-color: white;
+    position: relative;
+    left: 400px;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+}
+.user-pic{
+height: 60px;
+position: relative;
+top: 25px;
+left: 45px;
+}
+.link1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 30px;
+}
+p{
+    position: relative;
+    left: 435px;
+    bottom: 70px;
+    font-size: 25px;
+}
+.rightbox-1{
+    width: 400px;
+    height: 170px;
+    background-color: white;
+    position: relative;
+    left: 695px;
+    bottom: 293px;
+    border: 3px solid black;
+}
+
+h2{
+    position: relative;
+    left: 15px;
+    top: 23px;
+}
+
+.likebox1{
+   position: relative;
+   left: 250px;
+   bottom: 20px;
+   font-size: 20px;
+}
+.like1, .like2, .like3{
+    position: relative;
+    left: 330px;
+    font-size: 17px;
+    bottom: 65px;
+    background-color: goldenrod;
+    box-shadow: 3px 3px black;
+}
+
+.p2{
+    position: relative;
+    left: 730px;
+    bottom: 400px;
+    font-size: 20px;
+}
+.rightbox-2{
+    width: 400px;
+    height: 170px;
+    background-color: white;
+    position: relative;
+    left: 695px;
+    bottom: 350px;
+    border: 3px solid black;
+}
+.p3{
+    position: relative;
+    left: 730px;
+    bottom:450px;
+    font-size: 20px;
+
+}
+.likebox2{
+position: relative;
+left: 240px;
+bottom: 20px;
+font-size: 20px;
+}
+.rightbox-3{
+    width: 400px;
+    height: 170px;
+    background-color: white;
+    position: relative;
+    left: 695px;
+    bottom: 400px;
+    border: 3px solid black;
+}
+.likebox3{
+    position: relative;
+    left: 230px;
+  bottom: 15px;
+    font-size: 20px;
+}
+.p4{
+    position:relative;
+left: 730px;
+bottom: 500px;
+font-size: 20px;
+}

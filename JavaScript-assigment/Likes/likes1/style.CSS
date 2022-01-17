@@ -1,0 +1,35 @@
+.Box{
+    width: 500px;
+    height: 160px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    border: 3px solid black;
+}
+.Like{
+    background-color:goldenrod;
+    position: relative;
+    top: 25px;
+    left: 50px;
+    box-shadow: 3px 2px black;
+    font-size: 17px;
+}
+h2{
+    position: relative;
+    right: 50px;
+}
+p{
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.last-paragragh{
+    position: relative;
+    left: 425px;
+    bottom: 100px;
+    
+
+    font-size: 25px;;
+}
