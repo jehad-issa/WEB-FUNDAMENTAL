@@ -4,22 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dojo Weather</title>
+    <title>DojoWeather</title>
     <link rel="stylesheet" href="style.CSS">
 </head>
 <body>
     <nav>
-        <h1>DojoWeather</h1>
-        <p>Burbank</p>
-        <p>Chicago</p>
-        <p>Dallas</p>
+        <h1>DojoWeathe</h1>
+        <div class="navlinks">
+        <a href="#" onclick="weatherlocation()" class="link" >Burbank</a>
+        <a href="#"onclick="weatherlocation()" class="link">Chicago</a>
+        <a href="#" onclick="weatherlocation()" class="link">Dallas</a>
+        </div>
     </nav>
     <header>
         <h2>San Jose</h2>
-        <p>show temperaturein <select name="temp">
-            <option></option>
-            <option>Cheese and Crackers</option> </p>
+        <p>show temperature in <select name="temp" onchange="convert(this)" >
+            <option>&#8451</option>
+            <option>&#8457</option>
+            </select>
+        </p>
     </header>
+    <div class="body">
+        <div class="box1">
+            <h3>Today</h3>
+            <img src="some_rain.png"class="img1">
+            <p>some rain</p>
+            <p> <span style="color:red ;"id="temp1">24&deg </span> &nbsp <span style="color:blue ;"id="temp2"> 18&deg</span></p>
+        </div>
+        <div class="box1">
+            <h3>Today</h3>
+            <img src="some_sun.png"class="img1">
+            <p>some sun</p>
+            <p> <span style="color:red ;"id="temp3">27&deg </span> &nbsp <span style="color:blue ;"id="temp4"> 19&deg</span></p>
+        </div>
+        <div class="box1">
+            <h3>Today</h3>
+            <img src="some_clouds.png"class="img1">
+            <p>some clouds</p>
+            <p> <span style="color:red ;" id="temp5">21&deg </span> &nbsp <span style="color:blue ;" id="temp6">16&deg</span></p>
+        </div>
+        <div class="box1">
+            <h3>Today</h3>
+            <img src="some_sun.png"class="img1">
+            <p>some sun</p>
+            <p> <span style="color:red ;"id="temp7">26&deg </span> &nbsp <span style="color:blue ;"id="temp8"> 21&deg</span></p>
+        </div>
+    </div>
+    <footer >
+        <img src="cookie.png" class="img2">
+        <div class="footerparagragh">
+        <h2>Stop! Cookie time</h2>
+        <p>We use cookies (sandly not the edible ines) to personalize<br>
+        content and ads, to provide social media features and to<br>
+        analyse our traffic. <a href="#">Read more...</a> </p>
+        </div>
+        <div class="butn">
+            <button class="acceptbtn" onclick="footerhide()"   >I Accept</button>
+        </div>
+    </footer>
+    <script src="script.JS"></script>
     
 </body>
 </html>

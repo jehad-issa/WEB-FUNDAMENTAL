@@ -1,7 +1,78 @@
 nav{
-    height: 70px;
-    background-color: cornflowerblue;
+background-color: cornflowerblue;
+height: 60px;
+display:flex;
+align-items: center;
+justify-content: space-around;
+}
+h1{
+    position: relative;
+    right: 55px;
+    font-size: 30px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.navlinks{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 50px;
+}
+header{
+    width: 1232px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
 }
+.body{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+
+}
+.box1{
+    width:200px ;
+    height: 300px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.img1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+footer{
+    width: 1232px;
+    height: 150px;
+    background-color:lightgray;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+}
+.img2{
+    height: 100px;
+    position: relative;
+    left: 20px;
+}
+.acceptbtn{
+    position: relative;
+    right: 20px;
+    font-size: 20px;
+}
+.footerparagragh{
+    font-size: 20px;
+}
+
+
