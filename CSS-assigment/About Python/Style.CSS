@@ -13,6 +13,15 @@
     background-color: steelblue;
     color: white;
 }
+.sid-bar li {
+    margin: 10px;
+    text-decoration: none;
+}
+/* .sid-bar li a {
+   
+    text-decoration: none;
+} */
+
 .large-link, .normal-link{
     width: 60px;
     position: relative;
@@ -70,12 +79,13 @@ nav{
     text-decoration: none;
 }
 
-h4{
+p{
     color: white;
     width: 600px;
     height: 150px;
     position: relative;
     left: 550px;
+    text-align: center;
 }
 .sid-bar{
     color: white;
